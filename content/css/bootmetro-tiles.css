@@ -1,0 +1,423 @@
+
+.bg-color-blue {
+    background-color: #0072BC !important;
+}
+.bg-color-blueDark {
+    background-color: #662D91 !important;
+}
+.bg-color-green {
+    background-color: #01A31C !important;
+}
+.bg-color-greenDark {
+    background-color: #008641 !important;
+}
+.bg-color-red {
+    background-color: #BC1C48 !important;
+}
+.bg-color-yellow {
+    background-color: #FFC40D !important;
+}
+.bg-color-orange {
+    background-color: #CD4900 !important;
+}
+.bg-color-pink {
+    background-color: #C3325F !important;
+}
+.bg-color-purple {
+    background-color: #603CBA !important;
+}
+.bg-color-darken {
+    background-color: #1C1C1C !important;
+}
+.metro {
+    overflow: hidden;
+}
+.metro .carousel-control {
+    top: 20%;
+}
+.metro .metro-sections {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    width: 10000px;
+}
+.metro-sections h2 {
+    font-family: "Open Sans",Helvetica,"Helvetica Neue",Sans-Serif;
+    font-weight: 300;
+    margin-left: 5px;
+    text-transform: lowercase;
+}
+.metro .metro-sections .metro-section {
+    float: left;
+    height: auto;
+    margin-right: 75px;
+    position: relative;
+    width: auto;
+}
+.metro .metro-sections .metro-section.tile-span-1 {
+    margin-left: 0;
+    width: 160px;
+}
+.metro .metro-sections .metro-section.tile-span-2 {
+    margin-left: 0;
+    width: 320px;
+}
+.metro .metro-sections .metro-section.tile-span-3 {
+    margin-left: 0;
+    width: 480px;
+}
+.metro .metro-sections .metro-section.tile-span-4 {
+    margin-left: 0;
+    width: 640px;
+}
+.metro .metro-sections .metro-section.tile-span-5 {
+    margin-left: 0;
+    width: 640px;
+}
+.metro .metro-sections .metro-section.tile-span-6 {
+    margin-left: 0;
+    width: 800px;
+}
+.metro .metro-sections .metro-section.tile-span-7 {
+    margin-left: 0;
+    width: 960px;
+}
+.metro .metro-sections .metro-section.tile-span-8 {
+    margin-left: 0;
+    width: 1120px;
+}
+.metro .tile {
+    background-color: #2C83EF;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 150px;
+    margin: 5px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    text-decoration: none;
+    width: 150px;
+}
+.metro .tile:hover {
+    outline: 3px solid #225A68;
+}
+.scroll {
+    transition: left 0.6s ease 0s;
+}
+.metro .tile.square.text {
+    height: 110px;
+    padding: 20px;
+    width: 110px;
+}
+.metro .tile.square.image {
+    height: 150px;
+    padding: 0;
+    width: 150px;
+}
+.metro .tile.square.image img {
+    max-height: 150px;
+    max-width: 150px;
+}
+.metro .tile.squarepeek {
+    height: 300px;
+    width: 150px;
+}
+.metro .tile.squarepeek .text-inner {
+    height: 110px;
+    padding: 20px;
+    width: 110px;
+}
+.metro .tile.wide.text {
+    height: 110px;
+    padding: 20px;
+    width: 270px;
+}
+.metro .tile.wide.image {
+    height: 150px;
+    width: 310px;
+}
+.metro .tile.wide.image.collection img {
+    float: left;
+    max-height: 150px;
+    max-width: 158px;
+}
+.metro .tile.wide.imagetext.wideimage {
+    height: 150px;
+    padding: 0;
+    width: 310px;
+}
+.metro .tile.wide.imagetext {
+    height: 110px;
+    padding: 20px;
+    width: 270px;
+}
+.metro .tile.wide.imagetext .textover-wrapper {
+    background-color: inherit;
+    bottom: 0;
+    height: 48px;
+    padding: 2px 20px;
+    position: absolute;
+    width: 270px;
+}
+.metro .tile.widepeek {
+    height: 300px;
+    width: 310px;
+}
+.metro .tile.app .image-wrapper {
+    display: block;
+    height: 80px;
+    margin-top: 20px;
+    padding: 8px 0;
+    text-align: center;
+    vertical-align: middle;
+    width: 150px;
+}
+.metro .tile.app .image-wrapper img {
+    margin: 0 auto;
+    max-height: 80px;
+    max-width: 80px;
+}
+.metro .tile .app-label {
+    bottom: 5px;
+    font-size: 12px;
+    left: 20px;
+    position: absolute;
+}
+.metro .tile .app-count {
+    bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    right: 20px;
+}
+.metro .tile.wide.app {
+    height: 150px;
+    width: 310px;
+}
+.metro .tile.wide.app .image-wrapper {
+    width: 310px;
+}
+.image-wrapper span.icon {
+    font-size: 80px;
+    height: 80px;
+    line-height: 80px;
+    width: 80px;
+}
+.metro .tile.square.text .text-big {
+    font-size: 76px;
+    line-height: 76px;
+    overflow: hidden;
+    text-align: left;
+}
+.metro .tile.square.text.tilesquareblock .text {
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    text-align: left;
+}
+.metro .tile .text-header {
+    font-family: "Open Sans",Arial,Helvetica,Sans-Serif;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 36px;
+    max-height: 36px;
+    overflow: hidden;
+    text-align: left;
+}
+.metro .tile .text-header3 {
+    font-family: "Open Sans",Arial,Helvetica,Sans-Serif;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 36px;
+    max-height: 110px;
+    overflow: hidden;
+    text-align: left;
+}
+.metro .tile .text {
+    font-size: 15px;
+    font-weight: normal;
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden;
+    text-align: left;
+}
+.metro .tile .text2 {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 20px;
+    max-height: 44px;
+    overflow: hidden;
+    text-align: left;
+}
+.metro .tile .text3 {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 18px;
+    max-height: 56px;
+    overflow: hidden;
+    text-align: left;
+}
+.metro .tile .text4 {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 18px;
+    max-height: 72px;
+    overflow: hidden;
+    text-align: left;
+}
+.metro .tile .text5 {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 18px;
+    max-height: 92px;
+    overflow: hidden;
+    text-align: left;
+}
+.metro .tile.square.image img {
+    max-height: 150px;
+    max-width: 150px;
+}
+.metro .tile .column {
+    display: block;
+    float: left;
+    width: 130px;
+}
+.metro .tile .column2-label {
+    display: block;
+    float: left;
+    width: 90px;
+}
+.metro .tile .column2-text {
+    display: block;
+    float: left;
+    width: 160px;
+}
+.metro .tile .column3-label {
+    display: block;
+    float: left;
+    width: 50px;
+}
+.metro .tile .column3-text {
+    display: block;
+    float: left;
+    width: 200px;
+}
+.metro .tile.wide.image .mini-tiles {
+    display: inline-block;
+    float: left;
+    height: 150px;
+    width: 152px;
+}
+.metro .tile.wide.image .mini-tiles img {
+    border-left: 1px solid #2A2A2A;
+    display: inline-block;
+    float: left;
+    max-height: 75px;
+    max-width: 75px;
+}
+.metro .tile.wide.imagetext .column-text, .metro .tile.wide.text .column-text {
+    display: block;
+    float: left;
+    padding-left: 10px;
+    width: 170px;
+}
+.metro .tile.wide.text .column-text-big {
+    display: block;
+    float: left;
+    width: 80px;
+}
+.metro .tile.wide.imagetext .image-wrapper {
+    display: block;
+    float: left;
+    height: 80px;
+    width: 80px;
+}
+.metro .tile.wide.imagetext .image-wrapper img {
+    max-height: 80px;
+    max-width: 80px;
+}
+.listview-container.grid-layout {
+    background-color: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.13);
+    height: 240px;
+    overflow: auto;
+    padding: 2px;
+}
+.mediumListIconTextItem {
+    background-color: #FFFFFF;
+    border: 3px solid transparent;
+    cursor: pointer;
+    display: inline-block;
+    height: 70px;
+    margin-bottom: 7px;
+    margin-right: 24px;
+    overflow: hidden;
+    padding: 5px;
+    position: relative;
+    vertical-align: top;
+    width: 282px;
+}
+.mediumListIconTextItem:hover {
+    background-color: #B3B3B3;
+    border: 3px solid #B3B3B3;
+}
+.mediumListIconTextItem img.mediumListIconTextItem-Image {
+    display: inline-block;
+    height: 60px;
+    margin: 5px;
+    vertical-align: top;
+    width: 60px;
+}
+.mediumListIconTextItem .mediumListIconTextItem-Image[class^="icon-"], .mediumListIconTextItem .mediumListIconTextItem-Image[class*=" icon-"] {
+    display: inline-block;
+    font-size: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: 5px;
+    width: 60px;
+}
+.mediumListIconTextItem .mediumListIconTextItem-Detail {
+    display: inline-block;
+    margin: 5px;
+    vertical-align: top;
+}
+.mediumListIconTextItem.selected {
+    background-color: #4617B4;
+}
+.mediumListIconTextItem.selected:after {
+    color: #FFFFFF;
+    content: "";
+    font-family: 'IcoMoon';
+    font-size: 16px;
+    height: 16px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 16px;
+}
+.mediumListIconTextItem.selected:hover {
+    background-color: #4617B4;
+    border: 3px solid #B3B3B3;
+}
+.mediumListIconTextItem.selected .mediumListIconTextItem-Detail, .mediumListIconTextItem.selected .mediumListIconTextItem-Detail h4, .mediumListIconTextItem.selected .mediumListIconTextItem-Detail h6 {
+    color: #FFFFFF;
+}
+#ad-container {
+    background-color: #0072BC;
+    height: 90px;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+.metro .tile.ad.ad125 {
+    height: 125px;
+    padding: 12px 13px 13px 12px;
+    width: 125px;
+}
+.metro .tile.wide.ad.ad125 {
+    height: 150px;
+    padding: 0 65px;
+    width: 180px;
+}
